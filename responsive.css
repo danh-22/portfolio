@@ -1,0 +1,197 @@
+@media only screen and (max-width: 600px) {
+  /*General*/
+  .box {
+    height: 80px;
+  }
+  .box p {
+    font-size: 30px;
+  }
+  /*Footer*/
+  #b2t {
+    font-size: 18px;
+  }
+  #footer-links a {
+    font-size: 18px;
+  }
+  /*Navbar*/
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar a {
+    font-size: 25px;
+  }
+  .navbar h1 {
+    font-size: 25px;
+  }
+  .dropdown {
+    position: relative;
+  }
+  #projects-home {
+    flex-direction: column;
+    align-items: center;
+  }
+  .custom-card {
+    margin: 0px;
+  }
+
+  .custom-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /*Home*/
+  .custom-card img {
+    height: 200px;
+    width: 70vw;
+  }
+  /*Movies*/
+  .movies {
+    flex-direction: column;
+  }
+  #movies {
+    width: 100%;
+  }
+  #movies img {
+    width: 50%;
+  }
+  #movies p {
+    font-size: 15px;
+  }
+  input {
+    width: 80%;
+  }
+  #genre-list * {
+    width: 30%;
+    font-size: 15px;
+  }
+  /*Diner*/
+  .restaurant {
+    flex-direction: column;
+  }
+  .restaurant * {
+    width: 100%;
+  }
+  #diner-content {
+    width: 100%;
+  }
+  .diner-imgs {
+    display: none;
+  }
+  .diner-sidebar img {
+    width: 50%;
+  }
+  /*Menu*/
+  #menu-section {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .nav-menu {
+    flex-direction: column;
+  }
+  .nav-menu h1 {
+    text-align: center;
+    padding: 5px;
+  }
+  .restaurant-heading {
+    font-size: 80px;
+  }
+  /*About Us*/
+  .about-us {
+    background-position: center;
+  }
+  /*Contact*/
+  #diner-contact {
+    flex-direction: column-reverse;
+    background-image: url("./images/restaurant/diner-1.jpg");
+  }
+
+  /*Quiz*/
+  .start h1 {
+    font-size: 50px;
+  }
+  .start h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .start {
+    align-content: center;
+    height: 500px;
+  }
+
+  #answers label {
+    font-size: 15px;
+    width: 50%;
+  }
+
+  #answers {
+    width: 100%;
+  }
+
+  .quiz-btn {
+    font-size: 15px;
+  }
+  #project-code {
+    flex-direction: column;
+  }
+  .project-card img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .custom-container {
+    width: 90%;
+  }
+  /*Home*/
+  #projects-home {
+    flex-direction: column;
+  }
+  .custom-card img {
+    width: 500px;
+  }
+
+  /*Navbar*/
+  .navbar a {
+    font-size: 30px;
+  }
+
+  .navbar h1 {
+    font-size: 30px;
+  }
+
+  /*Restaurant*/
+  .restaurant {
+    flex-direction: column;
+  }
+  .restaurant * {
+    width: 100%;
+  }
+  #diner-content {
+    width: 100%;
+  }
+  .diner-imgs {
+    display: none;
+  }
+  .diner-sidebar img {
+    width: 35%;
+  }
+  .nav-menu h1 {
+    text-align: center;
+  }
+  #menu-section {
+    padding: 10px;
+  }
+  #diner-contact {
+    flex-direction: column-reverse;
+  }
+
+  /*Movies*/
+  #movies {
+    width: 45%;
+  }
+  #movie-search input {
+    width: 80%;
+  }
+}

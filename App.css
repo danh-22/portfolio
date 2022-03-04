@@ -1,0 +1,526 @@
+/*Fonts*/
+@font-face {
+  font-family: general;
+  src: url("./fonts/PatuaOne-Regular.ttf");
+}
+@font-face {
+  font-family: diner;
+  src: url("./fonts/LasEnter.ttf");
+}
+@font-face {
+  font-family: menu;
+  src: url("fonts/Lobster-Regular.ttf");
+}
+
+body {
+  font-family: general;
+  animation: 2s fade;
+}
+
+.custom-container {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  width: 30%;
+  outline: none;
+}
+
+input:focus {
+  outline: 2px solid #ff0000;
+}
+/*Navbar*/
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #ff0000;
+  height: 10%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 20px;
+  transition: 0.3s linear color;
+}
+
+.navbar h1 {
+  color: white;
+  font-size: 40px;
+  margin: 20px;
+  transition: 0.3s linear color;
+}
+
+.navbar h1:hover {
+  color: #8c8c8c;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  color: #8c8c8c;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  border-top: 2px solid white;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+}
+
+.dropdown a {
+  margin: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown a:hover {
+  color: #8c8c8c;
+  transition: 0.3s linear color;
+}
+
+/*Footer*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: red;
+  color: white;
+}
+.footer div {
+  padding: 10px;
+}
+
+#footer-links {
+  display: flex;
+  margin-right: 20px;
+}
+
+#footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+#footer-links a:hover {
+  color: #8c8c8c;
+  transition: 0.3s linear color;
+}
+
+#b2t {
+  font-size: 20px;
+}
+
+#b2t:hover {
+  cursor: pointer;
+}
+
+/*Home*/
+#code-bg {
+  background-image: url("./images/code.jpg");
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  width: 100px;
+  height: 20%;
+  transition: 0.3s linear;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+#projects-home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color: white;
+  transition: 0.3s linear;
+  width: 100%;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.custom-card h1 {
+  position: absolute;
+}
+
+.custom-card a {
+  color: white;
+  text-decoration: none;
+}
+
+.custom-card img {
+  filter: brightness(40%);
+  width: 25vw;
+  height: 300px;
+}
+.custom-card img:hover {
+  box-shadow: 0px 0px 15px black;
+}
+
+/* CV */
+.cv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cv i {
+  font-size: 50%;
+}
+
+.cv i:hover {
+  cursor: pointer;
+}
+
+.cv p {
+  border: 3px solid red;
+  padding: 20px;
+}
+
+.cv h1 {
+  margin-top: 40px;
+}
+
+.section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/*Movies*/
+.movies {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.movies div {
+  width: 30%;
+  text-align: center;
+  border: 2px solid rgb(17, 87, 128);
+}
+
+#movies {
+  background-color: #ccf2ff;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#movies * {
+  margin: 10px;
+}
+
+#movie-search {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#movie-search input:focus {
+  outline: 2px solid rgb(17, 87, 128);
+}
+
+#genre-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+
+#genre-list button:hover {
+  background-color: rgb(17, 87, 128);
+  color: white;
+}
+
+.genre-btn {
+  border-radius: 5px;
+  border: 2px solid rgb(17, 87, 128);
+  margin: 5px;
+  background-color: #ccf2ff;
+  width: 100px;
+  height: 40px;
+}
+
+/*Restaurant*/
+.restaurant {
+  display: flex;
+}
+
+#diner-content {
+  width: 75%;
+}
+
+.diner-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diner-imgs i {
+  font-size: 50px;
+  color: red;
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.diner-imgs i:hover {
+  background-color: #8c8c8c8c;
+  cursor: pointer;
+}
+
+#arrow-left {
+  left: 25%;
+}
+
+#arrow-right {
+  right: 0%;
+}
+
+.diner-sidebar {
+  background-image: url("./images/restaurant/brick-wall-portrait.png");
+  background-position: center;
+  width: 25%;
+}
+
+#sticky {
+  position: sticky;
+  top: 5%;
+}
+
+.diner-sidebar h1 {
+  color: white;
+  padding-top: 30px;
+  transition: 0.3s linear;
+}
+
+.diner-sidebar h1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.diner-sidebar img:hover {
+  cursor: pointer;
+}
+
+/*Menu*/
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-menu h1 {
+  font-family: general;
+  border: 3px solid #3399ff;
+  background-color: rgb(17, 87, 128);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.nav-menu h1:hover {
+  color: #3399ff;
+  cursor: pointer;
+}
+
+.restaurant-heading {
+  font-family: diner;
+  font-size: 100px;
+  color: #3399ff;
+}
+.menu {
+  color: black;
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: general;
+}
+
+#menu-section {
+  background-image: url("./images/restaurant/usa-flag-light.jpg");
+  background-size: cover;
+}
+
+/*About Us*/
+@keyframes fade {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 5% 10%;
+  transition: 2s ease-in-out;
+}
+
+.about-us h2 {
+  align-self: flex-start;
+}
+
+/*Contact*/
+#diner-contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.location {
+  padding: 5% 10%;
+  background-image: url("./images/restaurant/diner-seat-1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/*Quiz*/
+.quiz-btn {
+  border: 3px solid black;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  transition: 0.3s linear;
+}
+
+.quiz-btn:hover {
+  border: 3px solid #ff0000;
+}
+#start-btn button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#start-btn button:focus {
+  background-color: black;
+  color: white;
+}
+.start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.custom-bg {
+  background-image: url("./images/quiz/quiz-dark.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.start h1 {
+  font-size: 80px;
+  color: white;
+}
+
+.start h2 {
+  font-size: 60px;
+}
+
+#answers {
+  text-align: center;
+  background-color: black;
+  border: 2px solid red;
+  color: white;
+  padding: 20px;
+}
+
+#answers label {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#answers input {
+  width: 100px;
+}
+
+/*Projects*/
+#project-box {
+  color: white;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#project-box h1 {
+  font-size: 80px;
+}
+
+#project-code {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 0.3s linear;
+}
+.project-card img {
+  filter: brightness(40%);
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px black;
+  cursor: pointer;
+}
+
+#project-des {
+  position: absolute;
+}
+
+.animation {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+.blue {
+  color: blue;
+}

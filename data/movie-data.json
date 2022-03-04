@@ -1,0 +1,82 @@
+  [
+  {
+  "id": 1,
+  "movie": "The Last Samurai",
+  "description": "An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle.",
+  "genre": ["action", "drama"],
+  "poster": "https://resizing.flixster.com/o6Ml57KtsUwlOfS8alJTiWqws78=/206x305/v2/https://flxt.tmsimg.com/assets/p33171_p_v10_ae.jpg",
+  "release_year": 2003
+},
+{
+  "id": 2,
+  "movie": "Goodfellas",
+  "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+  "genre": "crime",
+  "poster": "https://resizing.flixster.com/RVK3aMlhEmW41ae5k9fY0oRU9ZY=/206x305/v2/https://flxt.tmsimg.com/NowShowing/41424/41424_ba.jpg",
+  "release_year": 1990
+},
+{
+  "id": 3,
+  "movie": "Casino",
+  "description": "A tale of greed, deception, money, power, and murder occur between two best friends: a mafia enforcer and a casino executive compete against each other over a gambling empire, and over a fast-living and fast-loving socialite.",
+  "genre": "crime",
+  "poster": "https://flxt.tmsimg.com/assets/p17418_v_v10_al.jpg",
+  "release_year": 1995
+},
+{
+  "id": 4 ,
+  "movie": "Everybody Wants Some!",
+  "description": "In 1980, a group of college baseball players navigate their way through the freedoms and responsibilities of unsupervised adulthood.",
+  "genre": "comedy",
+  "poster": "https://resizing.flixster.com/rs67jqEv7vxWbBkIWHTX1J5XbYg=/fit-in/300x533/v2/https://flxt.tmsimg.com/assets/p12240306_v_v8_ak.jpg",
+  "release_year": 2016
+},
+{
+  "id": 5 ,
+  "movie": "American Graffiti",
+  "description": "A couple of high school grads spend one final night cruising the strip with their buddies before they go off to college.",
+  "genre": ["comedy", "drama"],
+  "poster": "https://flxt.tmsimg.com/assets/p547_p_v10_aa.jpg",
+  "release_year": 1973
+},
+{
+  "id": 6 ,
+  "movie": "Arrival",
+  "description": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+  "genre": ["drama", "sci-fi"],
+  "poster": "https://flxt.tmsimg.com/assets/p13003177_v_v10_ag.jpg",
+  "release_year": 2016
+},
+{
+  "id": 7 ,
+  "movie": "The Good, The Bad and The Ugly",
+  "description": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
+  "genre": "western",
+  "poster": "https://resizing.flixster.com/ofMWj9FQLR4I6gMc1jLnmfjgjRY=/206x305/v2/https://flxt.tmsimg.com/assets/p4161_p_v8_av.jpg",
+  "release_year": 1966
+},
+{
+  "id": 8 ,
+  "movie": "The Sting",
+  "description": "Two grifters team up to pull off the ultimate con.",
+  "genre": ["comedy", "drama", "crime"],
+  "poster": "https://flxt.tmsimg.com/assets/p5221_v_v10_ae.jpg",
+  "release_year": 1973
+},
+{
+  "id": 9 ,
+  "movie": "Once Upon a Time in the West",
+  "description": "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.",
+  "genre": "western",
+  "poster": "https://flxt.tmsimg.com/assets/p2803_v_v8_ab.jpg",
+  "release_year": 1968
+},
+{
+  "id": 10 ,
+  "movie": "Pulp Fiction",
+  "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+  "genre": ["crime", "drama"],
+  "poster": "https://flxt.tmsimg.com/NowShowing/41244/41244_aa.jpg",
+  "release_year": 1994
+}
+]
